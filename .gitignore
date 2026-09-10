@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# env
+.env
+.env*.local
+
+# prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# logs
+npm-debug.log*
+*.log
+
+# misc
+.DS_Store
+*.tsbuildinfo
+
+# imports - do not commit source spreadsheets (business data)
+/data/incoming/*
+!/data/incoming/.gitkeep
